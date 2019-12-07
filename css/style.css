@@ -1,0 +1,217 @@
+/*==========================*/
+/* BASIC SETUP */
+/*==========================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+
+/*==========================*/
+/* REUSABLE COMPONENTS */
+/*==========================*/
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+/*==========================*/
+/* HOME SECTIION */
+/*==========================*/
+
+/*navbar-dropdown*/
+#navBar {
+    border-bottom: 1px solid white;
+}
+
+.uk-sticky-fixed {
+    border-bottom: 2px solid white;
+}
+
+nav.navbar {
+    background: dodgerblue;
+    color: white;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 45px;
+    padding: 0 2px 5px;
+    margin: -15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 20px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: #17A2B8;
+    color: white;
+}
+
+/*homeicon*/
+#mainSlide .carousel-inner img {
+    height: 400px;
+}
+
+#homeIcon {
+    height: 65vh;
+}
+
+#homeIcon i.fa {
+    font-size: 80px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.lead {
+    font-size: 17px;
+}
+
+#getStarted {
+    background: linear-gradient(#0404047a, #09090994), url("../img/slide1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 35vh;
+    text-align: center;
+}
+
+#homeVideo {
+    background: linear-gradient(#000000c4, #000000c4), url(../img/opurbo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#homeVideo .container i {
+    color: red;
+    font-size: 50px;
+}
+
+#photoGellary .container .row {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#signUp {
+    background: linear-gradient(#000000b3, #000000b3), url("../img/slide3.png");
+    background-attachment: fixed;
+}
+
+#signUp .container input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#signUp .container .btn {
+    margin-top: -5px;
+}
+
+#footer {
+    background: black;
+    height: 10vh;
+    font-size: 20px;
+}
+
+#footer span {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+/*==========================*/
+/* ABOUT-US SECTIION */
+/*==========================*/
+
+#aboutUs {
+    background: linear-gradient(#0000008c, #000c), url("../img/slide.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#aboutIcon{
+    background: linear-gradient(#0000008c, #000c), url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#aboutIcon h2 {
+    color: white;
+}
+
+#aboutIcon i {
+    font-size: 50px;
+}
+#aboutTestimonial{
+    background: rgba(0, 0, 0, 0.08);
+}
+#aboutTestimonial .slick-prev::before,
+.slick-next::before {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*==========================*/
+/* SERVICE SECTIION */
+/*==========================*/
+
+#service{
+    background: linear-gradient(#0000008c, #000c), url("../img/slide3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*==========================*/
+/* BLOG SECTIION */
+/*==========================*/
+
+#blog{
+    background: linear-gradient(#0000008c, #00000080), url("../img/slide2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*==========================*/
+/* CONTACT SECTIION */
+/*==========================*/
+
+#contact{
+    background: linear-gradient(#0000008c, #00000080), url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
