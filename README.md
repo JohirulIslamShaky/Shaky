@@ -1,2 +1,2 @@
 # Shaky basic web template
-Click Live link: https://johirulshaky.github.io/Shaky/
+source code download : https://github.com/johirulshaky/shaky/archive/refs/tags/1.0.zip
